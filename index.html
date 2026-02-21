@@ -2,83 +2,125 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Best Chemistry tuition in Chennai for CBSE & State Board. Expert coaching for Class 9-10 Science and Class 11-12 Chemistry. New batches starting Feb 16th.">
+    <meta name="keywords" content="Chemistry tuition Chennai, Class 12 Chemistry tutor, 11th Chemistry coaching, 10th Science tuition, CBSE Chemistry Chennai">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CJ Academy | Expert Chemistry Tuition Chennai</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>CJ Academy | Expert Chemistry Tuition Chennai | CBSE & State Board</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #2c3e50;
+            --primary: #1a252f;
             --accent: #e67e22;
-            --light: #f4f7f6;
+            --secondary: #3498db;
+            --light: #f8f9fa;
+            --white: #ffffff;
         }
-        body { font-family: 'Inter', sans-serif; margin: 0; color: #333; line-height: 1.6; }
+        body { font-family: 'Inter', sans-serif; margin: 0; color: #333; line-height: 1.6; background-color: #f0f2f5; }
         
-        /* Header & Hero */
-        header { background: var(--primary); color: white; padding: 60px 20px; text-align: center; }
-        .logo { font-size: 2.5rem; font-weight: bold; margin-bottom: 10px; color: var(--accent); }
-        .tagline { font-size: 1.2rem; opacity: 0.9; }
+        /* Header */
+        header { background: var(--primary); color: white; padding: 40px 20px; text-align: center; border-bottom: 5px solid var(--accent); }
+        .logo { font-size: 3rem; font-weight: 800; letter-spacing: -1px; margin-bottom: 5px; color: var(--white); }
+        .tagline { font-size: 1.3rem; color: var(--accent); font-weight: 600; }
 
-        /* Main Content */
-        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; text-align: center; }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
         
-        .card { 
-            background: white; 
-            border-radius: 12px; 
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
-            padding: 30px;
-            margin: 20px 0;
+        /* The "Same Line" Highlighted Box */
+        .subject-row {
+            display: flex; /* This puts them in the same line */
+            justify-content: center;
+            gap: 20px;
+            margin: 25px 0;
+            flex-wrap: wrap; /* Keeps it mobile friendly */
         }
+        .highlight-box {
+            background: var(--accent);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px; /* Rounded pill shape */
+            font-weight: bold;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 10px rgba(230, 126, 34, 0.3);
+        }
+
+        .card { 
+            background: var(--white); 
+            border-radius: 15px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05); 
+            padding: 40px;
+            margin-bottom: 30px;
+        }
+
+        h2 { color: var(--primary); font-size: 1.8rem; margin-bottom: 10px; }
+
+        /* Checklist */
+        .features { list-style: none; padding: 0; text-align: left; display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-top: 30px; }
+        @media (max-width: 600px) { .features { grid-template-columns: 1fr; } }
+        .features li { background: var(--light); padding: 10px 15px; border-radius: 8px; border-left: 4px solid var(--accent); }
+
+        /* Contact Section */
+        .contact-info { background: var(--primary); color: white; border-radius: 15px; padding: 40px 20px; text-align: center; }
+        .contact-info h3 { color: var(--accent); font-size: 1.8rem; margin-top: 0; }
+        .date-badge { background: #fff; color: #d35400; padding: 5px 15px; border-radius: 5px; font-weight: bold; display: inline-block; margin-bottom: 15px; }
+        .phone { font-size: 2rem; margin: 20px 0; font-weight: bold; display: block; text-decoration: none; color: white; }
 
         .btn {
             display: inline-block;
             background: var(--accent);
             color: white;
-            padding: 15px 30px;
+            padding: 18px 40px;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
             font-weight: bold;
-            transition: transform 0.2s;
-            margin-top: 20px;
+            font-size: 1.2rem;
+            transition: all 0.3s;
         }
-        .btn:hover { transform: scale(1.05); }
+        .btn:hover { background: #d35400; transform: translateY(-3px); }
 
-        /* Contact Section */
-        .contact-info { background: var(--light); padding: 40px 20px; }
-        .phone { font-size: 1.5rem; color: var(--primary); font-weight: bold; }
-
-        footer { font-size: 0.9rem; padding: 20px; color: #777; }
+        footer { padding: 40px; color: #95a5a6; text-align: center; }
     </style>
 </head>
 <body>
 
     <header>
         <div class="logo">CJ ACADEMY</div>
-        <div class="tagline">Premium Chemistry Tuition in Chennai</div>
+        <div class="tagline">Premium Chemistry Coaching</div>
     </header>
 
     <div class="container">
+
         <section class="card">
-            <h2>Master Chemistry with Confidence</h2>
-            <p>Specialized coaching for school and competitive exams. We simplify complex concepts to help you achieve top grades.</p>
-            <ul style="list-style: none; padding: 0; text-align: left; display: inline-block;">
+            <h2>Master Science & Chemistry</h2>
+            <p>Expert tuition for CBSE & State Board Syllabus</p>
+
+            <div class="subject-row">
+                <div class="highlight-box">XI & XII - Chemistry</div>
+                <div class="highlight-box">IX & X - Science</div>
+            </div>
+
+            <ul class="features">
                 <li>✅ Experienced Faculty</li>
-                <li>✅ Personalized Learning</li>
                 <li>✅ Concept-based Teaching</li>
+                <li>✅ Personalized Learning</li>
                 <li>✅ Regular Tests & Feedback</li>
+                <li>✅ Small Batch Sizes</li>
+                <li>✅ Board Exam Specialization</li>
             </ul>
         </section>
 
         <section class="contact-info">
-            <h3>Enroll Now for 2026</h3>
-            <h3> Batches strating on 16th Feb</h3>
-            <p>Directly call or WhatsApp us to book a demo session.</p>
-            <div class="phone">+91 8438632237</div>
-            <a href="https://wa.me/918438632237" class="btn">Chat on WhatsApp</a>
+            <div class="date-badge">New Batches: 16th Feb 2026</div>
+            <h3>Enroll for Demo Session</h3>
+            <p>Give your child the academic edge they deserve.</p>
+            <a href="tel:+918438632237" class="phone">📞 +91 8438632237</a>
+            <a href="https://wa.me/918438632237" class="btn">Message on WhatsApp</a>
         </section>
     </div>
 
-    <footer style="text-align: center;">
-        <p>© 2025 CJ Academy - Chennai. All Rights Reserved.</p>
+    <footer>
+        <p>© 2026 CJ Academy - Chennai. <br> 
+        Located in Chennai, Tamil Nadu.</p>
     </footer>
 
 </body>
